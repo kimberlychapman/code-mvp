@@ -71,12 +71,12 @@ $(document).ready(function() {
   }
 
   function showInspect(){
-    document.getElementById('inspect').style.display="block";
+    // document.getElementById('inspect').style.display="block";
     document.getElementById('play0').style.display="block";
   }
 
   function hideInspect(){
-    document.getElementById('inspect').style.display="none";
+    // document.getElementById('inspect').style.display="none";
     document.getElementById('play0').style.display="none";
   }
 
