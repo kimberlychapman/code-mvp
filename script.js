@@ -201,23 +201,25 @@ function hidePlayFifteen(){
 document.getElementById('play15').style.display="none";
 }
 
+// function picReset(){
+//   document.getElementById('field').src="img/game1-b.png";
+//   document.getElementById('lightbulb').src="img/light-off.png";
+// }
 
-function lightsOn(){
-  document.getElementById('lightbulb').src="img/light-on.png";
-  document.getElementById('go-ahead').style.color="black";
+// function newGame(){
+//   document.getElementById('lightbulb').src="img/light-off.png";
+//   document.getElementById('go-ahead').style.color="transparent";
+//   document.getElementById('score').src="img/scoreboard-start.png";
+// }
+
+function changeGame(){
+    document.getElementById('field').src="img/game1-g.png";
+    document.getElementById('lightbulb').src="img/light-off.png";
 }
 
-function lightsOff(){
-  document.getElementById('lightbulb').src="img/light-off.png";
-  document.getElementById('go-ahead').style.color="transparent";
-}
-
-function changeGame1(){
-    document.getElementById('field').src="img/game1-g.png"
-}
-
-function changeGame1Back(){
-    document.getElementById('field').src="img/game1-b.png"
+function changeGameBack(){
+    document.getElementById('field').src="img/game1-b.png";
+    document.getElementById('lightbulb').src="img/light-off.png";
 }
 
   function toggleSwitch(){

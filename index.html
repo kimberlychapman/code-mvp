@@ -86,7 +86,7 @@
   </div>
 </div>
 
-<div id="soccer"onclick="changeGame1()" ondblclick="changeGame1Back()">
+<div id="soccer" onclick="changeGame()" ondblclick="changeGameBack()">
     <img id="field" src="img/game1-b.png">
   </div>  
 <div id="pg">
@@ -204,8 +204,8 @@
     <div id="btn-image"><img id="button-pic2" src="img/faster-btn.png"></div>
     <div id="btn-name">Run Faster</div>
   </div>
-  <div id="run-btn" onclick="lightsOn()" ondblclick="lightsOff()">
-    <div id="btn-image"><img id="button-pic3" src="img/run-btn.png"></div>
+  <div id="run-btn">
+    <div id="btn-image"><img id="button-pic3" src="img/run-btn.png" onclick="picReset()"></div>
     <div id="btn-name">Run Code</div>
   </div>
   <div id="step-code-btn">
@@ -218,6 +218,12 @@
   </div>
 </div>
 
+<!-- <div id="game1">Game 1</div>
+<div id="game2">Game 2</div> -->
+
+<div id="scoreboard">
+  <img id="score" src="img/scoreboard-start.png">
+</div>
 
 <a id="go-on" href=index2.html>
   <img id="lightbulb" src="img/light-off.png">

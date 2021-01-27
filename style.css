@@ -1071,6 +1071,131 @@ margin-left:20px;
   text-align: center;
 }
 
+#scoreboard{
+  position:absolute;
+  top:95px;
+  left:78.5%;
+  height:94px;
+  width:184px;
+  border:2px solid  #2a2a2a;
+}
+#score{
+  height:90px;
+  width:180px;
+}
+
+/* .third{
+  border-color:  #80ff80;
+  color: #fff;
+  box-shadow: 0 0 40px 40px  #80ff80 inset, 0 0 0 0 #80ff80;
+  transition: all 150ms ease-in-out;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 0.6em;
+  color: #2a2a2a;
+  cursor: pointer;
+  font-size: 11pt;
+  font-weight: 400;
+  line-height: 1.2;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  position: absolute;
+  top: 100px;
+  left: 200px;
+  width: 70px;
+  height: 70px;
+  padding-top: 25px;
+}
+.third:hover {
+  box-shadow: 0 0 10px 0  #80ff80 inset, 0 0 10px 4px  #80ff80;
+}
+.third:hover, .third:focus {
+  color: #fff;
+  outline: 0;
+} */
+
+#game1{
+  border-color: lime;
+  color: #fff;
+  box-shadow: 0 0 40px 40px  lime inset, 0 0 0 0 lime;
+  transition: all 150ms ease-in-out;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 0.6em;
+  color: #2a2a2a;
+  cursor: pointer;
+  font-size: 10pt;
+  font-weight: 400;
+  line-height: 1.2;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  position:absolute;
+  top:600px;
+  left:77.25%;
+  width: 50px;
+  height: 50px;
+  padding-top: 10px;
+}
+#game1:hover {
+  box-shadow: 0 0 10px 0  lime inset, 0 0 10px 4px  lime;
+}
+#game1:hover, #game1:focus {
+  color: #fff;
+  outline: 0;
+}
+#game2{
+  border-color: lime;
+  color: #fff;
+  box-shadow: 0 0 40px 40px  lime inset, 0 0 0 0 lime;
+  transition: all 150ms ease-in-out;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 0.6em;
+  color: #2a2a2a;
+  cursor: pointer;
+  font-size: 10pt;
+  font-weight: 400;
+  line-height: 1.2;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  position:absolute;
+  top:170px;
+  left:82.5%;
+  width: 50px;
+  height: 50px;
+  padding-top: 10px;
+}
+#game2:hover {
+  box-shadow: 0 0 10px 0  lime inset, 0 0 10px 4px  lime;
+}
+#game2:hover, #game1:focus {
+  color: #fff;
+  outline: 0;
+}
+
+
+
 #small{
     font-size:8.5pt;
 }
