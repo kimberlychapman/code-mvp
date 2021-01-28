@@ -1079,7 +1079,7 @@ margin-left:20px;
   width:184px;
   border:2px solid  #2a2a2a;
 }
-#score{
+#scoring{
   height:90px;
   width:180px;
 }
@@ -1122,9 +1122,9 @@ margin-left:20px;
 } */
 
 #game1{
-  border-color: lime;
+  border-color: #2a2a2a;
   color: #fff;
-  box-shadow: 0 0 40px 40px  lime inset, 0 0 0 0 lime;
+  box-shadow: 0 0 40px 40px #2a2a2a inset, 0 0 0 0 #2a2a2a;
   transition: all 150ms ease-in-out;
   box-sizing: border-box;
   -webkit-appearance: none;
@@ -1133,7 +1133,7 @@ margin-left:20px;
   background-color: transparent;
   border: 2px solid white;
   border-radius: 0.6em;
-  color: #2a2a2a;
+  color: white;
   cursor: pointer;
   font-size: 10pt;
   font-weight: 400;
@@ -1144,23 +1144,23 @@ margin-left:20px;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   position:absolute;
-  top:600px;
-  left:77.25%;
-  width: 50px;
+  top:10px;
+  left:84%;
+  width: 100px;
   height: 50px;
-  padding-top: 10px;
+  padding-top: 15px;
 }
 #game1:hover {
-  box-shadow: 0 0 10px 0  lime inset, 0 0 10px 4px  lime;
+  box-shadow: 0 0 10px 0 #2a2a2a inset, 0 0 10px 4px #2a2a2a;
 }
 #game1:hover, #game1:focus {
   color: #fff;
   outline: 0;
 }
 #game2{
-  border-color: lime;
+  border-color: #2a2a2a;
   color: #fff;
-  box-shadow: 0 0 40px 40px  lime inset, 0 0 0 0 lime;
+  box-shadow: 0 0 40px 40px  #2a2a2a inset, 0 0 0 0 #2a2a2a;
   transition: all 150ms ease-in-out;
   box-sizing: border-box;
   -webkit-appearance: none;
@@ -1169,7 +1169,7 @@ margin-left:20px;
   background-color: transparent;
   border: 2px solid white;
   border-radius: 0.6em;
-  color: #2a2a2a;
+  color: white;
   cursor: pointer;
   font-size: 10pt;
   font-weight: 400;
@@ -1180,14 +1180,14 @@ margin-left:20px;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   position:absolute;
-  top:170px;
-  left:82.5%;
-  width: 50px;
+  top:10px;
+  left:91.5%;
+  width: 100px;
   height: 50px;
-  padding-top: 10px;
+  padding-top: 15px;
 }
 #game2:hover {
-  box-shadow: 0 0 10px 0  lime inset, 0 0 10px 4px  lime;
+  box-shadow: 0 0 10px 0 #2a2a2a inset, 0 0 10px 4px #2a2a2a;
 }
 #game2:hover, #game1:focus {
   color: #fff;

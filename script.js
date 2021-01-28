@@ -40,17 +40,17 @@ $(document).ready(function() {
     // document.getElementById('trick').style.textDecorationColor="#eee";
   }
 
-  function scoreStyle(){
-    document.getElementById('score').style.textDecoration="underline";
-    document.getElementById('score').style.textDecorationColor="#eee";
+  // function scoreStyle(){
+  //   document.getElementById('score').style.textDecoration="underline";
+  //   document.getElementById('score').style.textDecorationColor="#eee";
     // document.getElementById('trick').style.fontSize="11pt";    
-  }
+  // }
 
-  function noScoreStyle(){
-    document.getElementById('score').style.textDecoration="none";
+  // function noScoreStyle(){
+  //   document.getElementById('score').style.textDecoration="none";
     // document.getElementById('trick').style.fontSize="10pt";  
     // document.getElementById('trick').style.textDecorationColor="#eee";
-  }
+  // }
 
   // function showCaption(){
   //   document.getElementById('video-caption').style.display="block";
@@ -222,6 +222,33 @@ function changeGameBack(){
     document.getElementById('lightbulb').src="img/light-off.png";
 }
 
+function boysWin(){
+  document.getElementById('field').src="img/boys-win1.png";
+  document.getElementById('lightbulb').src="img/light-on.png";
+  document.getElementById('go-ahead').style.color="black";
+  document.getElementById('scoring').src="img/scoreboard-goal.png";
+
+}
+function resetBoys(){
+  document.getElementById('field').src="img/game1-b.png";
+  document.getElementById('scoring').src="img/scoreboard-start.png";
+  document.getElementById('lightbulb').src="img/light-off.png";
+  document.getElementById('go-ahead').style.color="transparent";
+}
+
+function girlsWin(){
+  document.getElementById('field').src="img/girls-win1.png";
+  document.getElementById('lightbulb').src="img/light-on.png";
+  document.getElementById('go-ahead').style.color="black";
+  document.getElementById('scoring').src="img/scoreboard-goal.png";
+
+}
+function resetGirls(){
+  document.getElementById('field').src="img/game1-g.png";
+  document.getElementById('scoring').src="img/scoreboard-start.png";
+  document.getElementById('lightbulb').src="img/light-off.png";
+  document.getElementById('go-ahead').style.color="transparent";
+}
   function toggleSwitch(){
     var checkBox = document.getElementById("switch");
     var task = document.getElementById('task');
